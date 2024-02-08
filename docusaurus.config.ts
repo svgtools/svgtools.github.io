@@ -61,7 +61,7 @@ const config: Config = {
       title: 'SVG Tools',
       logo: {
         alt: 'SVG Tools Logo',
-        src: 'img/SVG logo.svg',
+        src: 'img/logo.svg',
       },
       items: [
         {
