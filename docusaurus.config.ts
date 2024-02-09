@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'SVG Tools',
-  tagline: 'SVG manipulation made easy & accessible',
+  tagline: 'Vector data manipulation made easy & accessible',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
