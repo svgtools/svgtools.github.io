@@ -19,11 +19,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Artificial Intelligence / Machine learning',
+    title: 'AI Generation',
     Svg: require('@site/static/img/undraw_artificial_intelligence_re_enpp.svg').default,
     description: (
       <>
-        Leverage a deep learning AI model made specifically to generate SVG paths
+        Leverage a deep learning AI model trained on SVG path data
       </>
     ),
   },
