@@ -65,7 +65,7 @@ const config: Config = {
       },
       items: [
         {
-          href: 'https://github.com/svgtools/svgtools.github.io',
+          href: 'https://github.com/svgtools',
           label: 'GitHub',
           position: 'right',
         },
