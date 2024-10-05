@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_site_ts=self.webpackChunkmy_site_ts||[]).push([[8908],{3272:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/blog/tags/facebook","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
