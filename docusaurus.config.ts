@@ -7,6 +7,7 @@ const config: Config = {
   tagline: 'Vector data manipulation made easy & accessible',
   favicon: 'img/favicon.ico',
 
+
   // Set the production url of your site here
   url: 'https://svgtools.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -56,7 +57,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/svg-logo.png',
     navbar: {
       title: 'SVG Tools',
       logo: {

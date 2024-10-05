@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Home`}
-      description="Description will go into a meta tag in <head />">
+      description="SVG Tools is a collection of tools for graphic designers.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
