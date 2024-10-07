@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'SVG Tools',
-  tagline: 'Vector data manipulation made easy & accessible',
+  tagline: 'SVG Tools is a collection of tools for graphic designers',
   favicon: 'img/favicon.ico',
 
 
@@ -38,15 +38,15 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -62,9 +62,16 @@ const config: Config = {
       title: 'SVG Tools',
       logo: {
         alt: 'SVG Tools Logo',
-        src: 'img/logo.svg',
+        src: 'img/svg-logo.png',
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
+        { to: '/about', label: 'About', position: 'left' },
         {
           href: 'https://github.com/svgtools',
           label: 'GitHub',
@@ -73,7 +80,40 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            {
+              label: 'Radial Designer Docs',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/dGe9HpEnFu',
+            },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'About',
+              to: '/about',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/facebook/docusaurus',
+            },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} freshfriedfish & SVG Tools.`,
     },
     prism: {

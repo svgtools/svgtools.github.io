@@ -18,8 +18,9 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg">
-            (Coming soon)
+            className="button button--secondary button--lg"
+            to="https://freshfriedfish.github.io/radial-designer/">
+            Get started
           </Link>
         </div>
       </div>

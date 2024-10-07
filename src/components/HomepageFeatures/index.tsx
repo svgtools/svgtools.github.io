@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Geometric Structure',
-    Svg: require('@site/static/img/undraw_logo_design_re_gfu6.svg').default,
+    Svg: require('@site/static/img/undraw_conceptual_idea_xw7k.svg').default,
     description: (
       <>
         Effortlessly create beautiful geometric logos, such as ones used by <a href='https://openai.com/'>OpenAI</a> and <a href='https://www.zellic.io/'>Zellic</a>
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'AI Generation',
-    Svg: require('@site/static/img/undraw_artificial_intelligence_re_enpp.svg').default,
+    Svg: require('@site/static/img/undraw_monster_artist_2crm.svg').default,
     description: (
       <>
         Leverage a deep learning AI model trained on SVG path data
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Open Source',
-    Svg: require('@site/static/img/undraw_open_source_-1-qxw.svg').default,
+    Svg: require('@site/static/img/undraw_love_re_mwbq.svg').default,
     description: (
       <>
         Users can access and contribute to its underlying codebase freely.
