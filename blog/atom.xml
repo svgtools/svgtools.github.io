@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://svgtools.github.io/blog</id>
-    <title>SVG Tools Blog</title>
+    <title>SVGTools Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://svgtools.github.io/blog"/>
-    <subtitle>SVG Tools Blog</subtitle>
+    <subtitle>SVGTools Blog</subtitle>
     <icon>https://svgtools.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
