@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Geometric Structure',
+    title: 'Geometric Constraints',
     Svg: require('@site/static/img/undraw_conceptual_idea_xw7k.svg').default,
     description: (
       <>
@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'AI Generation',
+    title: 'AI Assistance',
     Svg: require('@site/static/img/undraw_monster_artist_2crm.svg').default,
     description: (
       <>

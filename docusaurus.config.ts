@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'SVG Tools',
-  tagline: 'SVG Tools is a collection of tools for graphic designers',
+  title: 'SVGTools',
+  tagline: 'Streamline vector data processes',
   favicon: 'img/favicon.ico',
 
 
@@ -95,8 +95,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/dGe9HpEnFu',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/',
             },
           ],
         },
@@ -114,7 +114,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} freshfriedfish & SVG Tools.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SVGTools.`,
     },
     prism: {
       theme: prismThemes.github,
